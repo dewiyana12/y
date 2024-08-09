@@ -1,0 +1,168 @@
+*,html,body {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+
+body {
+    color: black;
+    background-color: black;
+
+}
+
+.home .text1 p {
+    color: white;
+    font-size: 15px;
+}
+
+
+.text1{
+    font-size: 75px;
+    font-weight: 700;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: block;
+}
+
+.text1 span {
+    animation: glow 3.6s ease infinite;
+}
+
+@keyframes glow {
+    0%, 100% {
+        color: rgb(249, 4, 196);
+        text-shadow: 0 0 25px white,  0 0 50px white, 0 0 100px white ;
+        }
+        20%, 90% {
+    color:transparent;
+    text-shadow: none;
+        }
+}
+ /*TEXT1*/
+ .text1 span:nth-child(1) {
+    animation-delay: 0.8s;
+}
+
+.text1 span:nth-child(2) {
+    animation-delay: 1.0s;
+}
+
+.text1 span:nth-child(3) {
+    animation-delay: 1.2s;
+}
+
+.text1 span:nth-child(4) {
+    animation-delay: 1.4s;
+}
+
+.text1 span:nth-child(5) {
+    animation-delay: 1.6s;
+}
+.text1 span:nth-child(6) {
+    animation-delay: 1.8s;
+}
+.text1 span:nth-child(7) {
+    animation-delay: 2.0s;
+}
+.text1 span:nth-child(8) {
+    animation-delay: 2.4s;
+}
+.text1 span:nth-child(9) {
+    animation-delay: 2.6s;
+}
+.text1 span:nth-child(10) {
+    animation-delay: 2.8s;
+}
+.text1 span:nth-child(11) {
+    animation-delay: 3.0s;
+}
+.text1 span:nth-child(12) {
+    animation-delay: 3.2s;
+}
+.text1 span:nth-child(13) {
+    animation-delay: 3.4s;
+}
+.text1 span:nth-child(14) {
+    animation-delay: 3.6s;
+}
+
+
+
+
+
+.home {
+    color: black;
+    background: url('walpaper.JPG') no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    align-items: center;
+    padding: 0 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.home-content { 
+    max-width: 600px;
+}    
+
+.home .text1 .container .wrapper a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(248, 246, 246);
+    border-radius: 5px;
+    border: 10 solid red;
+    background: transparent;
+
+}
+
+.container,.wrapper {
+    background: rgb(237, 167, 230);
+    width: 100px;
+    margin: auto; 
+    border-radius: 20px;
+}
+
+.wrapper {
+    margin-top: 20px;
+}
+
+
+    /* responsive */
+ 
+ @media screen and (max-width: 40rem) {
+ 
+
+    .home .text1 p {
+        color: white;
+        font-size: 5px;
+    }
+
+    .text1{
+        font-size: 20px;
+        font-weight: 700;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      display: block;
+    }
+    
+    .text1 span {
+        animation: glow 7.0s ease infinite;
+    }
+ 
+ }
+
+ .home .text1 .hbd a {
+    color:rgb(249, 4, 196);
+ }
+
+ .home .text1 .hbd a:hover,::after {
+    color: white;
+ }
+
+ 
